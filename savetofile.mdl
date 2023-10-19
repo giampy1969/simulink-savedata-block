@@ -1,0 +1,245 @@
+Model {
+  Name			  "save53"
+  Version		  3.00
+  SimParamPage		  "Solver"
+  SampleTimeColors	  off
+  InvariantConstants	  off
+  WideVectorLines	  off
+  ShowLineWidths	  off
+  ShowPortDataTypes	  off
+  StartTime		  "0.0"
+  StopTime		  "10.0"
+  SolverMode		  "Auto"
+  Solver		  "FixedStepDiscrete"
+  RelTol		  "1e-3"
+  AbsTol		  "auto"
+  Refine		  "1"
+  MaxStep		  "auto"
+  InitialStep		  "auto"
+  FixedStep		  "auto"
+  MaxOrder		  5
+  OutputOption		  "RefineOutputTimes"
+  OutputTimes		  "[]"
+  LoadExternalInput	  off
+  ExternalInput		  "[t, u]"
+  SaveTime		  on
+  TimeSaveName		  "tout"
+  SaveState		  off
+  StateSaveName		  "xout"
+  SaveOutput		  on
+  OutputSaveName	  "yout"
+  LoadInitialState	  off
+  InitialState		  "xInitial"
+  SaveFinalState	  off
+  FinalStateName	  "xFinal"
+  SaveFormat		  "Matrix"
+  LimitMaxRows		  off
+  MaxRows		  "1000"
+  Decimation		  "1"
+  AlgebraicLoopMsg	  "warning"
+  MinStepSizeMsg	  "warning"
+  UnconnectedInputMsg	  "warning"
+  UnconnectedOutputMsg	  "warning"
+  UnconnectedLineMsg	  "warning"
+  InheritedTsInSrcMsg	  "warning"
+  IntegerOverflowMsg	  "warning"
+  UnnecessaryDatatypeConvMsg "none"
+  Int32ToFloatConvMsg	  "warning"
+  SignalLabelMismatchMsg  "none"
+  ConsistencyChecking	  "off"
+  ZeroCross		  on
+  SimulationMode	  "normal"
+  BlockDataTips		  on
+  BlockParametersDataTip  off
+  BlockAttributesDataTip  off
+  BlockPortWidthsDataTip  off
+  BlockDescriptionStringDataTip	off
+  BlockMaskParametersDataTip off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  OptimizeBlockIOStorage  on
+  BufferReuse		  on
+  BooleanDataType	  on
+  RTWSystemTargetFile	  "grt.tlc"
+  RTWOptions		  "-aEnforceIntegerDowncast=1 -aFoldNonRolledExpr=1 -a"
+"InlineInvariantSignals=1 -aInlineParameters=0 -aLocalBlockOutputs=1 -aRollThr"
+"eshold=5 -aZeroInternalMemoryAtStartup=1 -aZeroExternalMemoryAtStartup=1 -aIn"
+"itFltsAndDblsToZero=1 -aGenerateReport=0 -aGenCodeOnly=0 -aRTWVerbose=1 -aInc"
+"ludeHyperlinkInReport=0 -aLaunchReport=0 -aForceParamTrailComments=0 -aGenera"
+"teComments=1 -aIgnoreCustomStorageClasses=1 -aIncHierarchyInIds=0 -aMaxRTWIdL"
+"en=31 -aShowEliminatedStatements=0 -aPrefixModelToSubsysFcnNames=1 -aIncDataT"
+"ypeInIds=0 -aInsertBlockDesc=0 -aSimulinkBlockComments=1 -aInlinedPrmAccess="
+"\"Literals\"  -aSuppressErrorStatus=0 -aModelReferenceCompliant=1 -aSupportNo"
+"nInlinedSFcns=1 -aSupportContinuousTime=1 -aSupportComplex=1 -aSupportNonFini"
+"te=1 -aSupportAbsoluteTime=1 -aTargetFcnLib=\"ansi_tfl_tmw.mat\" -aMultiInsta"
+"nceERTCode=0 -aLogVarNameModifier=\"rt_\" -aIsPILTarget=0 -aCombineOutputUpda"
+"teFcns=0 -aGenerateASAP2=0 -aGenerateSampleERTMain=0 -aGenerateFullHeader=1 -"
+"aUtilityFuncGeneration=\"Auto\" -aIncludeFileDelimiter=\"Auto\" -aIncludeMdlT"
+"erminateFcn=1 -aPurelyIntegerCode=0 -aERTCustomFileBanners=0 -aRTWCAPIStates="
+"0 -aRTWCAPIParams=0 -aRTWCAPISignals=0 -aMatFileLogging=1 -aGenFloatMathFcnCa"
+"lls=\"ANSI_C\" -aExtModeMexFile=\"ext_comm\" -aExtModeTransport=0 -aExtModeSt"
+"aticAllocSize=1000000 -aExtModeTesting=0 -aExtModeStaticAlloc=0 -aExtMode=0  "
+  RTWInlineParameters	  off
+  RTWRetainRTWFile	  off
+  RTWTemplateMakefile	  "grt_default_tmf"
+  RTWMakeCommand	  "make_rtw"
+  RTWGenerateCodeOnly	  off
+  ExtModeMexFile	  "ext_comm"
+  ExtModeBatchMode	  off
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  Created		  "Wed Jan 11 11:08:43 2006"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "campa"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Thu Feb 16 09:15:55 2006"
+  ModelVersionFormat	  "1.%<AutoIncrement:59>"
+  ConfigurationManager	  "None"
+  BlockDefaults {
+    Orientation		    "right"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  System {
+    Name		    "save53"
+    Location		    [60, 102, 451, 329]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    ZoomFactor		    "100"
+    AutoZoom		    on
+    ReportName		    "simulink-default.rpt"
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Automatic\nData Type \nConversion"
+      Position		      [170, 34, 225, 56]
+      DataType		      "auto"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Band-Limited\nWhite Noise"
+      Ports		      [0, 1, 0, 0, 0]
+      Position		      [85, 30, 115, 60]
+      SourceBlock	      "simulink3/Sources/Band-Limited\nWhite Noise"
+      SourceType	      "Continuous White Noise."
+      Cov		      "[1 1]*200"
+      Ts		      "0.1"
+      seed		      "[1 2]"
+    }
+    Block {
+      BlockType		      "S-Function"
+      Name		      "ToFile"
+      Ports		      [1, 0, 0, 0, 0]
+      Position		      [270, 30, 330, 60]
+      FunctionName	      "savedata"
+      Parameters	      "N,TStartStop,T,FileName,FpOutStr,InType"
+      PortCounts	      "[]"
+      SFunctionModules	      "''"
+      MaskType		      "Save Data"
+      MaskDescription	      "  Every time this block executes, it takes its "
+"input vector and stores it \n  as a last entry in a buffer in memory.  At the"
+" end of simulation,  \n  it writes the entire buffer to the specified file, u"
+"sing the format \n  specified by the \"Fprintf Output String\" parameter. Whe"
+"n common \n  format options are used, numbers are stored in ASCII format with"
+" each \n  row being the input vector at a given time, and the output file can"
+" be \n  opened with any text editor or loaded from the matlab command line \n"
+"  using \"load myfile.dat\". More info are available within the help section."
+      MaskHelp		      "  Every time this block executes, it takes its "
+"input vector and stores it \n  as a last entry in a buffer in memory.  At the"
+" end of simulation,  \n  it writes the entire buffer to the specified file, u"
+"sing the format \n  specified by the \"Fprintf Output String\" parameter.\n<b"
+"r><br>\n  Typical values for the fptrinf parameter are strings like '%f ', '%"
+"e ' or \n  '%f6.6' for singles and doubles, '%d ' or '%x ' for integers respe"
+"ctively \n   in decimal and hexadecimal and '%c ' to directly print the ASCII"
+" characters \n   corresponding to the stored numbers. Remember to leave the f"
+"inal\n   space in the parameter to keep vector entries separated. More info o"
+"n\n   the formatted print can be found here: <A HREF=\"http://www.cplusplus.c"
+"om/ref/cstdio/printf.html\">http://www.cplusplus.com/ref/cstdio/printf.html</"
+"A>.\n<br><br>\n   When %d, %e or %f are used and the vector entries are kept "
+"separated,\n   numbers are stored in ASCII format with each row being the inp"
+"ut vector \n   at a given time, and the output file can be opened with any te"
+"xt editor or \n   the output file can be loaded as a matlab variable by typin"
+"g \"load myfile.dat\"\n   from the command line. \n<br><br>\n"
+      MaskPromptString	      "Number Of Channels |Input Type|Output File Name"
+"|Fprintf Output String|[StartTime StopTime]  |Sampling Time"
+      MaskStyleString	      "edit,popup(double|single|int8|uint8|int16|uint1"
+"6|int32|uint32|boolean),edit,edit,edit,edit"
+      MaskTunableValueString  "on,on,on,on,on,on"
+      MaskCallbackString      "|||||"
+      MaskEnableString	      "on,on,on,on,on,on"
+      MaskVisibilityString    "on,on,on,on,on,on"
+      MaskVariables	      "N=@1;InType=@2;FileName=@3;FpOutStr=@4;TStartSt"
+"op=@5;T=@6;"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskIconUnits	      "autoscale"
+      MaskValueString	      "2|double|'myfile.dat'|'%f '|[1.1 9]|0.1"
+    }
+    Line {
+      SrcBlock		      "Automatic\nData Type \nConversion"
+      SrcPort		      1
+      DstBlock		      "ToFile"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Band-Limited\nWhite Noise"
+      SrcPort		      1
+      DstBlock		      "Automatic\nData Type \nConversion"
+      DstPort		      1
+    }
+    Annotation {
+      Position		      [185, 160]
+      Text		      "When changing the type from double         \nto"
+" integer or boolean remember to change \n the format string parameter to '%d "
+"'.             \n\nAfter the simulation run the command:       \nload myfile."
+"dat; plot(myfile)                        "
+    }
+  }
+}
